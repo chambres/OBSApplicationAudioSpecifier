@@ -1,0 +1,13 @@
+# Rust-specific
+/target/
+
+# Dependency caches
+.cargo/
+Cargo.lock # Exclude for libraries, include for executables
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.swp
+*~
+.#*
